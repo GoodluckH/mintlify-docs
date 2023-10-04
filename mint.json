@@ -3,67 +3,53 @@
   "name": "User Guide",
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#9563FF",
-    "light": "#AE87FF",
-    "dark": "#0D001D",
+    "primary": "#f7b500",
+    "light": "#f7b500",
+    "dark": "#f7b500",
     "background": {
-      "dark": "#090014"
+      "dark": "#171717"
     },
     "anchors": {
       "from": "#FF7F57",
       "to": "#9563FF"
     }
   },
+  "primaryTab": {
+    "name": "Welcome"
+},
+  "tabs": [
+    {
+      "name": "Features",
+      "url": "features"
+    },
+    {
+      "name": "Best Practices",
+      "url": "best"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Back to Focus",
+    "url": "https://complish.ai"
+  },
   "topbarLinks": [
     {
-      "name": "Support",
+      "name": "Contact",
       "url": "mailto:support@complish.ai"
     }
   ],
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
+  
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "group": "Hi there!",
+      "pages": ["welcome"]
     },
     {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "group": "Features",
+      "pages": ["features/overview", "features/timer", "features/quick-add", "features/breaks", "features/dark-mode", "features/list", "features/wrap-day", "features/focus-time", "features/daily-goal"]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
-      ]
+      "group": "Best Practices",
+      "pages": ["best/overview"]
     }
   ],
   "footerSocials": {

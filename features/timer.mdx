@@ -1,0 +1,109 @@
+---
+title: "⏰ Timer"
+description: "The most important feature"
+---
+
+## Basics
+
+Before doing your task, select a time from the button group.
+
+<Frame>
+  <img
+    src="/images/features/timer-button-group.png"
+    style={{ borderRadius: "0.5rem" }}
+  />
+</Frame>
+
+If you need more than 30 minutes, click the `+` button to add more time.
+
+<Frame>
+  <img
+    src="/images/features/timer-slider.png"
+    style={{ borderRadius: "0.5rem" }}
+  />
+</Frame>
+We set a max time of 2 hours because we highly recommend breaking down tasks into
+smaller chunks to help you focus and reduce stress.
+
+<Info>
+  Ideally, each task should take 30 minutes at max. Anything longer can likely
+  be broken down.
+</Info>
+
+## Controls
+
+<Frame>
+  <img
+    src="/images/features/timer-controls.png"
+    style={{ borderRadius: "0.5rem" }}
+  />
+</Frame>
+
+Once a timer is active, you will have three control buttons for the
+timer.
+
+From left to right, they are: **Pause/Resume**, **Cancel**, and **Add 5**.
+
+<AccordionGroup>
+  <Accordion title="Resume/Pause">Pause or resume the timer.</Accordion>
+  <Accordion title="Cancel Timer">
+    Cancel and reset the timer. Usually this is used when you had picked a wrong
+    time for the current task.
+    <Warning>
+      This action cannot be undone. The [focus time](/features/focus-time) for the current task will be
+      reset.
+    </Warning>
+  </Accordion>
+  <Accordion title="Add 5">
+    Add 5 minutes to the current timer. This is useful when you need a little
+    more time to finish the current task.
+
+    <Warning>
+    We discourage users from using this button too often. If you find yourself
+    using this button frequently, consider breaking down your tasks into smaller chunks.
+    </Warning>
+
+  </Accordion>
+</AccordionGroup>
+
+## Banner
+
+When you are focusing on your task, we want to minimize distractions.
+
+We designed the banner to give you a sense of time using your peripheral
+vision.
+
+There are different colors indicating different states.
+
+### Yellow
+
+<Frame>
+  <img
+    src="/images/features/timer-yellow-banner.png"
+    style={{ borderRadius: "0.5rem" }}
+  />
+</Frame>
+
+This indicates the timer is active for a regular task.
+
+### Blue
+
+<Frame>
+  <img
+    src="/images/features/timer-blue-banner.png"
+    style={{ borderRadius: "0.5rem" }}
+  />
+</Frame>
+
+This indicates the timer is active for a [break](/features/breaks) task.
+
+### Green
+
+<Frame>
+  <img
+    src="/images/features/timer-green-banner.png"
+    style={{ borderRadius: "0.5rem" }}
+  />
+</Frame>
+
+This indicates time is up for the current task.
