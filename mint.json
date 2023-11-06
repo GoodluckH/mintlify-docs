@@ -16,7 +16,7 @@
   },
   "primaryTab": {
     "name": "Welcome"
-},
+  },
   "tabs": [
     {
       "name": "Features",
@@ -30,26 +30,39 @@
   "topbarLinks": [
     {
       "name": "Contact",
-      "url": "mailto:support@complish.ai"
+      "url": "mailto:support@forget.work"
     }
   ],
-  
   "navigation": [
     {
       "group": "Hi there!",
-      "pages": ["welcome"]
+      "pages": [
+        "welcome"
+      ]
     },
     {
       "group": "Features",
-      "pages": ["features/overview", "features/timer", "features/quick-add", "features/breaks", "features/dark-mode", "features/list", "features/wrap-day", "features/focus-time", "features/daily-goal"]
+      "pages": [
+        "features/overview",
+        "features/timer",
+        "features/quick-add",
+        "features/breaks",
+        "features/dark-mode",
+        "features/list",
+        "features/wrap-day",
+        "features/focus-time",
+        "features/daily-goal"
+      ]
     },
     {
       "group": "Best Practices",
-      "pages": ["best/overview"]
+      "pages": [
+        "best/overview"
+      ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/complish_ai",
+    "twitter": "https://twitter.com/forget_work",
     "discord": "https://discord.gg/mTGweBSv3P"
   }
 }
