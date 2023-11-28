@@ -23,6 +23,10 @@
       "url": "features"
     },
     {
+      "name": "Game Badges",
+      "url": "badges"
+    },
+    {
       "name": "Best Practices",
       "url": "best"
     }
@@ -59,7 +63,15 @@
       "pages": [
         "best/overview"
       ]
+    },  
+     {
+      "group": "Game Badges",
+      "pages": [
+        "badges/overview",
+        "badges/last-time"
+      ]
     }
+
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/forget_work",
